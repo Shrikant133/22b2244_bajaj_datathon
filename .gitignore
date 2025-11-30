@@ -1,0 +1,55 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables and secrets
+.env
+.env.local
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache for tools
+pip-wheel-metadata/
+__pypackages__/
+*.spec
+
+# Testing data
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Upload or media temp storage
+uploads/
+files/
+
+# Local configs
+*.sqlite3
