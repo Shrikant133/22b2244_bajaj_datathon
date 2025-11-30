@@ -2,8 +2,9 @@ from google import genai
 from google.genai import types
 import io
 import httpx
+import os
 
-client = genai.Client(api_key="AIzaSyBFzEpUqipRBNWnNxxfrjY53mJCEck62gU")
+client = genai.Client()
 
 def extract_bill_from_pdf(pdf_url: str):
     """Returns the final HackRx JSON from Gemini."""
